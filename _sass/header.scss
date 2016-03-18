@@ -1,15 +1,60 @@
 #starflask-bubbles
 {
+  margin: auto;
+  width: 400px;
 
-  width: 600px;
-  text-align: center;
 
   canvas
   {
 
       display: block;
       padding: 0;
-      margin: auto;
+      margin: 0 auto;
   }
 
+}
+
+#flask-image
+{
+  width:100%;
+  text-align:center;
+
+  img
+  {
+      margin: 0 auto;
+  }
+
+
+}
+
+
+#header-title
+{
+  width:100%;
+  text-align:center;
+
+  h1
+  {
+    font-family: 'Poiret One', cursive;
+  }
+
+}
+
+#header-logo-small
+{
+  width:100%;
+  text-align:center;
+
+  img
+  {
+      margin: 0 auto;
+  }
+}
+
+.arrow-down
+{
+  margin-top:20px;
+  padding:50px;
+  text-align:center;
+  width:100%;
 }
