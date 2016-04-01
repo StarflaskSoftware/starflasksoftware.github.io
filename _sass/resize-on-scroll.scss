@@ -199,7 +199,7 @@ section {
 
 /* =Header
 -------------------------------------------------------------- */
-header {
+.folding-header {
 	width:100%;
 	 height:800px;
 	overflow: hidden;
@@ -328,7 +328,7 @@ footer {
 @media all and (max-width: 660px) {
 	/* =Header
 	-------------------------------------------------------------- */
-	header {
+	.folding-header {
 		h1#logo {
 			display:block;
 			float:none;
@@ -388,7 +388,7 @@ footer {
 	}
 }
 
-header {
+.folding-header {
     width: 100%;
     //height: 150px;
     overflow: hidden;
@@ -398,7 +398,7 @@ header {
     z-index: 999;
 
 }
-header h1#logo {
+.folding-header h1#logo {
     display: inline-block;
     height: 150px;
     line-height: 150px;
@@ -413,11 +413,11 @@ header h1#logo {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-header nav {
+.folding-header nav {
     display: inline-block;
     float: right;
 }
-header nav a {
+.folding-header nav a {
     line-height: 150px;
     margin-left: 20px;
     color: #9fdbfc;
@@ -429,24 +429,24 @@ header nav a {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-header nav a:hover {
+.folding-header nav a:hover {
     color: white;
 }
-header.smaller {
+.folding-header.smaller {
     height: 50px;
 }
-header.smaller h1#logo {
+.folding-header.smaller h1#logo {
     width: 150px;
     height: 75px;
     line-height: 75px;
     font-size: 30px;
 }
-header.smaller nav a {
+.folding-header.smaller nav a {
     line-height: 75px;
 }
 
 @media all and (max-width: 660px) {
-    header h1#logo {
+    .folding-header h1#logo {
         display: block;
         float: none;
         margin: 0 auto;
@@ -454,29 +454,29 @@ header.smaller nav a {
         line-height: 100px;
         text-align: center;
     }
-    header nav {
+    .folding-header nav {
         display: block;
         float: none;
         height: 50px;
         text-align: center;
         margin: 0 auto;
     }
-    header nav a {
+    .folding-header nav a {
         line-height: 50px;
         margin: 0 10px;
     }
-    header.smaller {
+    .folding-header.smaller {
         height: 50px;
     }
-    header.smaller h1#logo {
+    .folding-header.smaller h1#logo {
         height: 40px;
         line-height: 40px;
         font-size: 30px;
     }
-    header.smaller nav {
+    .folding-header.smaller nav {
         height: 35px;
     }
-    header.smaller nav a {
+    .folding-header.smaller nav a {
         line-height: 35px;
     }
 }
